@@ -36,6 +36,7 @@ SELECT rating, ROUND(AVG(length),2)
 FROM film
 GROUP BY rating;
 
+
 -- 7. Which kind of movies (rating) have a mean duration of more than two hours?
 SELECT rating, ROUND(AVG(length),2)
 FROM film
